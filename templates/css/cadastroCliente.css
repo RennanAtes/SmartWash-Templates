@@ -1,0 +1,121 @@
+html,body{
+    margin: 0;
+    padding: none;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.box-topo{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+.textCriarCadastro{
+    color: white;
+    text-decoration: none;
+}
+.moreLavacar{
+    position: relative;
+    display: flex;
+    color: white;
+    float: right;
+    right: 5%;
+    font-size: 15px;
+    text-decoration: none;
+}
+.navbut{
+    position: relative;
+    top: 20px;
+
+
+}
+.selectLavaCars{
+    position: relative;
+    left: 5%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.campo_formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+}
+.campo_section{
+    flex: 1 0 auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+
+.rodape {
+    flex-shrink: 0;
+    background-color: beige;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+  }
+
+.boxButtonsFooter{
+    text-align: center;
+    position: relative;
+    top: 17px;
+}
+.buttonsFooter{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+.cadastrarCliente{
+    text-align: center;
+    margin-bottom:20px ;
+}
+
+.inputTexts{
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.inputTexts:focus{
+    outline: none;
+}
+.fonteLabel{
+    font-size: 13px;
+}
+.button{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    height: 35px;
+}   

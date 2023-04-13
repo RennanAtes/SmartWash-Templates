@@ -1,0 +1,95 @@
+html,body{
+    margin: 0;
+    padding: none;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.box-topo{
+    display: block;
+    background-color: black;
+    height: 100px; 
+    width: 100%;
+    padding: 35px;
+}
+
+.inputTexts{
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.inputTexts:focus{
+    outline: none;
+}
+.bairronumero{
+    width: 49%;
+}
+.campo_formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+}
+.campo_section{
+    flex: 1 0 auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.logo{
+    margin-top: 10px;
+}
+
+.rodape {
+    flex-shrink: 0;
+    background-color: beige;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+  }
+
+
+.button{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    height: 35px;
+}   
+
+.bairro{
+    width: 48%;
+}
+.numero_endereco{
+    width: 49%;
+    float: right;
+}
+.fonteLabel{
+    font-size: 13px;
+}
+.boxButtonsFooter{
+    text-align: center;
+    position: relative;
+    top: 17px;
+}
+.buttonsFooter{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
